@@ -1,0 +1,15 @@
+# Ignore the virtual environment folder (venv)
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore JetBrains-specific files (for PyCharm)
+.idea/
